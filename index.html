@@ -10,37 +10,40 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Studio</title>
   </head>
   <body>
     <header class="navigation">
-      <a href="#" class="logo link logo-link"
-        ><span class="web">Web</span><span class="studio">Studio</span></a
-      >
-      <nav>
-        <ul class="navigation-list">
-          <li class="navigation-items"><a class="link" href="./index.html">Agencja</a></li>
-          <li class="navigation-items"><a class="link" href="./portfolio.html">Portfolio</a></li>
-          <li class="navigation-items"><a class="link" href="#">Kontakt</a></li>
+      <div class="container">
+        <a href="#" class="logo link logo-link"
+          ><span class="web">Web</span><span class="studio">Studio</span></a
+        >
+        <nav>
+          <ul class="navigation-list">
+            <li class="navigation-items"><a class="link" href="./index.html">Agencja</a></li>
+            <li class="navigation-items"><a class="link" href="./portfolio.html">Portfolio</a></li>
+            <li class="navigation-items"><a class="link" href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul>
+          <li class="navigation-contacts-item">
+            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="navigation-contacts-item">
+            <a class="link" href="telto:+48111111111">+48 111 111 111</a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li class="navigation-contacts-item">
-          <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="navigation-contacts-item">
-          <a class="link" href="telto:+48111111111">+48 111 111 111</a>
-        </li>
-      </ul>
-      <div class="header">
+      </div>
+      <div class="header container">
         <h1 class="header-font">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button class="button" type="button">Zamów usługę</button>
       </div>
     </header>
     <main>
-      <div>
-        <ul class="lorem-ipsum">
+      <div class="container">
+        <ul class="lorem-ipsum container">
           <li>
             <h5>LOREM IPSUM</h5>
             <p class="lorem-ipsum-paragraph">
@@ -71,7 +74,7 @@
           </li>
         </ul>
       </div>
-      <section>
+      <section class="container">
         <h2 class="header-services">Czym się zajmujemy</h2>
         <ul class="services">
           <li class="services-items">
@@ -94,7 +97,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="container">
         <h2 class="header-team">Nasz zespół</h2>
         <ul class="team">
           <li>
@@ -148,7 +151,7 @@
         </ul>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer container">
       <a href="#" class="logo"
         ><span class="web">Web<span class="studio-footer">Studio</span></span></a
       >

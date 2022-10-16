@@ -6,11 +6,28 @@
   --button-font-color: #ffffff;
   --background-footer-header-color: #2f303a;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--background-color);
   color: var(--brand-color);
+  margin: 0;
+  box-sizing: border-box;
 }
+.container {
+  width: 1200px;
+  margin: 0 215px;
+  padding: 0 15px;
+}
+.container-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .link {
   text-decoration: none;
   color: var(--brand-color);
@@ -43,10 +60,7 @@ body {
   text-decoration: none;
 }
 .navigation {
-  display: block;
   list-style-type: none;
-}
-.navigation {
   color: var(--selection-color);
 }
 .navigation-list {
@@ -55,22 +69,23 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
+  margin-right: 371px;
 }
 .navigation-items {
   margin-left: 46px;
-  display: inline;
+  display: flex;
+  padding-left: 46px;
 }
 
-.navigation-contacts-items {
-  margin-left: 46px;
-  display: inline;
+.navigation-contacts-item {
+  /* margin-left: 46px; */
+  display: flex;
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   list-style-type: none;
-}
-.navigation-contacts-items {
   color: var(--selection-color);
+  color: var(--navigation-contacts-color);
 }
 .header {
   background-color: var(--background-footer-header-color);
@@ -78,6 +93,8 @@ body {
   width: 1600px;
   height: 600px;
   text-align: center;
+  padding: 200px 452px 200px 452px;
+  align-items: center;
 }
 .header-font {
   font-family: inherit;
@@ -125,7 +142,7 @@ body {
   list-style-type: none;
 }
 .services-items {
-  margin-left: 46px;
+  margin-left: 30px;
 }
 
 .header-team {
