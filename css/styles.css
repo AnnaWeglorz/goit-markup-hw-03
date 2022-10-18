@@ -61,10 +61,18 @@ ul {
 .navigation {
   list-style-type: none;
   color: var(--selection-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+  justify-content: space-between;
+  display: flex;
+ 
 }
-.navigtion-bar {
+.navigation-bar {
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
+  color: var(--selection-color);
 }
 .navigation-list {
   display: flex;
@@ -73,8 +81,18 @@ ul {
   font-weight: 500;
   font-size: 14px;
   gap: 46px;
-}
+  justify-content: flex-start;
 
+}
+.navigation-items {
+  display: flex;
+  list-style-type: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  gap: 46px;
+  justify-content: flex-start;
+}
 .navigation-contacts-item {
   display: flex;
   font-family: inherit;
@@ -83,6 +101,10 @@ ul {
   list-style-type: none;
   color: var(--selection-color);
   color: var(--navigation-contacts-color);
+  gap:50px;
+  justify-content: flex-end;
+
+
 }
 .header {
   background-color: var(--background-footer-header-color);
@@ -91,7 +113,6 @@ ul {
   text-align: center;
   padding: 200px 252px 200px 252px;
   align-items: center;
-  border-bottom: 1px solid #ececec;
   max-width: 696px;
 }
 .header-font {
@@ -114,6 +135,7 @@ ul {
   background-color: var(--selection-color);
   border-radius: 4px;
   border-style: none;
+  cursor: pointer;
 }
 .button:active,
 .button:hover {
