@@ -15,35 +15,37 @@
     <title>Studio</title>
   </head>
   <body>
-    <header class="navigation">
-      <div class="container">
-        <a href="#" class="logo link logo-link"
-          ><span class="web">Web</span><span class="studio">Studio</span></a
-        >
-        <nav>
-          <ul class="navigation-list">
-            <li class="navigation-items"><a class="link" href="./index.html">Agencja</a></li>
-            <li class="navigation-items"><a class="link" href="./portfolio.html">Portfolio</a></li>
-            <li class="navigation-items"><a class="link" href="#">Kontakt</a></li>
-          </ul>
-        </nav>
-        <ul>
-          <li class="navigation-contacts-item">
-            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="navigation-contacts-item">
-            <a class="link" href="telto:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      </div>
-      <div class="header container">
-        <h1 class="header-font">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="button" type="button">Zamów usługę</button>
-      </div>
-    </header>
+    <div class="container">
+      <header class="navigation">
+          <div class="navigation-bar">
+            <a href="#" class="logo link logo-link"
+              ><span class="web">Web</span><span class="studio">Studio</span></a
+            >
+            <nav>
+              <ul class="navigation-list">
+                <li class="navigation-items"><a class="link" href="./index.html">Agencja</a></li>
+                <li class="navigation-items"><a class="link" href="./portfolio.html">Portfolio</a></li>
+                <li class="navigation-items"><a class="link" href="#">Kontakt</a></li>
+              </ul>
+            </nav>
+            <ul>
+              <li class="navigation-contacts-item">
+                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="navigation-contacts-item">
+                <a class="link" href="telto:+48111111111">+48 111 111 111</a>
+              </li>
+            </ul>
+          </div>
+        <div class="header">
+          <h1 class="header-font">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button class="button" type="button">Zamów usługę</button>
+        </div>
+      </header>
+    </div>
     <main>
       <div class="container">
-        <ul class="lorem-ipsum container">
+        <ul class="lorem-ipsum">
           <li>
             <h5>LOREM IPSUM</h5>
             <p class="lorem-ipsum-paragraph">
@@ -74,92 +76,98 @@
           </li>
         </ul>
       </div>
-      <section class="container">
-        <h2 class="header-services">Czym się zajmujemy</h2>
-        <ul class="services">
-          <li class="services-items">
-            <img src="./images/avatar-services-tiping.jpg" height="294" alt="We create websites" />
-          </li>
-          <li class="services-items">
-            <img
-              src="./images/avatar-services-phone.jpg"
-              width="370"
-              height="294"
-              alt="We adjust them to your needs"
-            />
-          </li>
-          <li class="services-items">
-            <img
-              src="./images/avatar-services-tablet.jpg"
-              height="294"
-              alt="We change them for you"
-            />
-          </li>
-        </ul>
-      </section>
-      <section class="container">
-        <h2 class="header-team">Nasz zespół</h2>
-        <ul class="team">
-          <li>
-            <figure>
+      <div class="container">
+        <section>
+          <h2 class="header-services">Czym się zajmujemy</h2>
+          <ul class="services">
+            <li class="services-items">
+              <img src="./images/avatar-services-tiping.jpg" height="294" alt="We create websites" />
+            </li>
+            <li class="services-items">
               <img
-                src="./images/avatar-team-product-designer.jpg"
-                height="260"
-                alt="photo of John Doe"
+                src="./images/avatar-services-phone.jpg"
+                width="370"
+                height="294"
+                alt="We adjust them to your needs"
               />
-              <figcaption>
-                <h3 class="team-member">John Doe</h3>
-                <p class="team-member-position">Product Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
+            </li>
+            <li class="services-items">
               <img
-                src="./images/avatar-team-frontend-developer.jpg"
-                height="260"
-                alt="photo of John Doe"
+                src="./images/avatar-services-tablet.jpg"
+                height="294"
+                alt="We change them for you"
               />
-              <figcaption>
-                <h3 class="team-member">John Doe</h3>
-                <p class="team-member-position">Frontend Developer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="./images/avatar-team-marketing.jpg" height="260" alt="photo of John Doe" />
-              <figcaption>
-                <h3 class="team-member">John Doe</h3>
-                <p class="team-member-position">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/avatar-team-ui-designer.jpg"
-                height="260"
-                alt="photo of John Doe"
-              />
-              <figcaption>
-                <h3 class="team-member">John Doe</h3>
-                <p class="team-member-position">UI Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </section>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="container">
+        <section>
+          <h2 class="header-team">Nasz zespół</h2>
+          <ul class="team">
+            <li class="team">
+              <figure>
+                <img
+                  src="./images/avatar-team-product-designer.jpg"
+                  height="260"
+                  alt="photo of John Doe"
+                />
+                <figcaption>
+                  <h3 class="team-member">John Doe</h3>
+                  <p class="team-member-position">Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="team">
+              <figure>
+                <img
+                  src="./images/avatar-team-frontend-developer.jpg"
+                  height="260"
+                  alt="photo of John Doe"
+                />
+                <figcaption>
+                  <h3 class="team-member">John Doe</h3>
+                  <p class="team-member-position">Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="team">
+              <figure>
+                <img src="./images/avatar-team-marketing.jpg" height="260" alt="photo of John Doe" />
+                <figcaption>
+                  <h3 class="team-member">John Doe</h3>
+                  <p class="team-member-position">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="team">
+              <figure>
+                <img
+                  src="./images/avatar-team-ui-designer.jpg"
+                  height="260"
+                  alt="photo of John Doe"
+                />
+                <figcaption>
+                  <h3 class="team-member">John Doe</h3>
+                  <p class="team-member-position">UI Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
-    <footer class="footer container">
-      <a href="#" class="logo"
-        ><span class="web">Web<span class="studio-footer">Studio</span></span></a
-      >
-      <address>
-        <span class="address"> m. Warszawa, Aleje Jerozolimskie 21</span>
-        <a href="mailto:info@devstudio.com" class="footer-contacts link">info@devstudio.com</a>
-        <a href="telto:+48111111111" class="footer-contacts link">+48 111 111 111</a>
-      </address>
-    </footer>
+    <div class="container">
+      <footer class="footer">
+        <a href="#" class="logo"
+          ><span class="web">Web<span class="studio-footer">Studio</span></span></a
+        >
+        <address class="address">
+          <span class="address"> m. Warszawa, Aleje Jerozolimskie 21</span>
+          <a href="mailto:info@devstudio.com" class="footer-contacts link">info@devstudio.com</a>
+          <a href="telto:+48111111111" class="footer-contacts link">+48 111 111 111</a>
+        </address>
+      </footer>
+    </div>
   </body>
 </html>
