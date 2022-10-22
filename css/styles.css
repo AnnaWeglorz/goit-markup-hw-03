@@ -15,6 +15,7 @@ body {
   background-color: var(--background-color);
   color: var(--brand-color);
   box-sizing: border-box;
+  width:1600px;
 }
 ul {
   list-style-type: none;
@@ -54,6 +55,7 @@ img {
   vertical-align: top;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-right: 93px;
 }
 
 .web {
@@ -76,9 +78,11 @@ img {
   color: var(--selection-color);
   padding-top: 24px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #ECECEC;
+  padding-left: 215px;
+  border-bottom: 1px solid #ececec;
   display: flex;
   align-items: center;
+  
 }
 
 /* .navigation-bar {
@@ -86,36 +90,34 @@ img {
   list-style-type: none;
   color: var(--selection-color);
   align-items: center; */
-  
+
 /* } */
 .contacts-nav {
-  display:flex;
-align-items: center;
+  display: flex;
+  align-items: center;
+  margin-left: 371px;
+  gap:50px;
+ 
   
 }
 .navigation-list {
   display: flex;
-  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   gap: 46px;
   align-items: flex-end;
-
+ 
 }
 .navigation-items {
-  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
-  gap: 9px;
-    
 }
 .navigation-contacts-item {
-  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   color: var(--selection-color);
   color: var(--navigation-contacts-color);
-
+  
 }
 .header {
   background-color: var(--background-footer-header-color);
@@ -124,11 +126,10 @@ align-items: center;
   text-align: center;
   padding: 200px 252px 200px 252px;
   align-items: center;
-  max-width: 696px;
   border-bottom: 1px solid #ececec;
+  margin:auto;
 }
 .header-font {
-  font-family: inherit;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -163,7 +164,6 @@ align-items: center;
 }
 .lorem-ipsum-paragraph {
   color: #757575;
-  font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
   text-align: left;
@@ -192,7 +192,6 @@ align-items: center;
   gap: 30px;
 }
 .team-member {
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -200,7 +199,6 @@ align-items: center;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   margin-top: 30px;
- 
 }
 
 .team-member-position {
@@ -218,17 +216,15 @@ align-items: center;
   padding-top: 60px;
   padding-bottom: 60px;
   padding-left: 215px;
-
 }
 .studio-footer {
   color: var(--button-font-color);
   text-decoration: none;
   gap: 20px;
-  padding-bottom:20px; 
+  padding-bottom: 20px;
 }
 
 .address {
-  font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
   text-align: left;
@@ -238,13 +234,11 @@ align-items: center;
   max-width: 246px;
   display: flex;
   flex-direction: row;
-  gap:9px;
-
+  gap: 9px;
 }
 
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
-  font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
   text-align: left;
@@ -252,9 +246,8 @@ align-items: center;
   letter-spacing: 0.03em;
   font-style: normal;
   text-decoration: none;
-  gap:9px;
-  display:flex;
-
+  gap: 9px;
+  display: flex;
 }
 .button-all:active,
 .button-sites:active,
